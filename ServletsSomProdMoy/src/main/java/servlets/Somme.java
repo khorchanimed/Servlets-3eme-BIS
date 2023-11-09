@@ -20,7 +20,7 @@ public class Somme extends HttpServlet {
        s = x + y ; 
        request.setAttribute("som", s) ; 
        
-       response.getWriter().println("<h1>La somme est : " + s + "</h1>");
+       response.getWriter().println(" <h1>[Servlet Somme] : ==> La somme est : " + s + "</h1>");
        request.getRequestDispatcher("moyenne").include(request, response) ; 
 	}
 	

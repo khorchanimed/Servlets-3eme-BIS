@@ -19,7 +19,7 @@ public class Produit extends HttpServlet {
 	       x = Integer.parseInt( request.getParameter("x") ) ; 
 	       y = Integer.parseInt( request.getParameter("y") ) ; 
 	     	       
-	       response.getWriter().println("<h1>Le produit est : " + x*y + "</h1>");			
+	       response.getWriter().println("<h1>[Servlet Produit]: ==> Le produit est : " + x*y + "</h1>");			
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

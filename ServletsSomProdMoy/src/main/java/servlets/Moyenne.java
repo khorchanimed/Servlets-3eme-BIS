@@ -15,7 +15,7 @@ public class Moyenne extends HttpServlet {
 		
 		 int som = (int)request.getAttribute("som") ; 
 
-		 response.getWriter().println("<h1>La moyenne est : " + som/2.0+"</h1>");		
+		 response.getWriter().println("<h1>[Servlet Moyenne] :  ==> La moyenne est : " + som/2.0+"</h1>");		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
